@@ -1,0 +1,15 @@
+$secondary-color: #115e59d6;
+.primary-btn{
+    background-color: $secondary-color;
+    color: white;
+    border: none;
+    border-radius: 0.3rem;
+    padding: 0.5rem 2.7rem;
+    width: fit-content;
+    font-size: 1rem;
+    cursor: pointer;
+
+    &:hover{
+        opacity: 0.8;
+    }
+}
